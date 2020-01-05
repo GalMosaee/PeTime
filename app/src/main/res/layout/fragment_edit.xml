@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.CommentsFragment">
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="321dp"
+        android:layout_height="167dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toLeftOf="@id/update"
+        android:background="@android:color/transparent"
+        android:hint="Add a description..." />
+
+    <TextView
+        android:id="@+id/update"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:maxLines="1"
+        android:layout_marginEnd="5dp"
+        android:text="Update"
+        android:textColor="@color/colorPrimary" />
+</LinearLayout>
